@@ -165,8 +165,8 @@
 
     /* DISCOGRAFIA */
 
-    #discography {
+    .discography {
         margin: 3rem auto;
-
+        justify-content: center; 
     }
 

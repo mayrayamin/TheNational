@@ -1,0 +1,172 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 62.5%;
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    body {
+        background-color: white;
+    }
+
+
+    /* Barra de navegacion */
+
+    .navegacion {
+        width: 100%;
+        background-color: white;
+        position: fixed;
+    }
+
+    .navegacion ul {
+        list-style: none;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .menu {
+        float: right;
+        margin-right: 2rem;
+    }
+
+    .menu > li {
+        position: relative;
+        display: inline-block;
+    }
+
+    .menu li a {
+        display: block;
+        padding: 2rem 1.5rem;
+        color: grey;
+        /* agregar font */
+        text-decoration: none;
+    }
+
+    .menu li a:hover{
+        color: #F9AFCC;
+        transition: 0.5s;
+    }
+
+    /* Submenu */
+
+    .submenu {
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        display: none;
+        transition: all 1s  linear;
+    }
+
+    .submenu li a {
+        display: block;
+        padding: 1rem;
+        left: 0;
+        color: grey;
+        font-size: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        letter-spacing: 0;
+        transition: all 0.3s;
+
+    }
+
+    .menu li:hover .submenu {
+        display: block;
+    }
+
+
+
+    /* imagen home */
+
+    #imghome {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+
+    h1 {
+        width: 100%;
+        font-size: 3rem;
+        position: absolute;
+        float: left;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    /* main */
+
+    /* HISTORIA */
+
+    #history {
+        margin: 3rem;
+        padding: 0 7rem;
+    }
+
+    .history p {
+        font-size: 1.4rem;
+        text-align: justify;
+        font-style: italic;
+    }
+
+    /* INTEGRANTES */
+
+    #integrantes {
+        width: 100%;
+        margin: 0 -0.5rem;
+    }
+
+
+    .columna {
+        width: 20%;
+        float: left;
+        padding: 0.3rem;
+        box-sizing: border-box;
+    }
+
+
+    .columna img {
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .columna:hover img {
+        transform: scale(0.8);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .columna:hover h4 {
+        color: #F9AFCC;
+    }
+
+    h4 {
+        margin-top: 0.4rem;
+        font-size: 1.3rem;
+        font-weight: normal;
+        text-align: center;
+        transition: all 0.5s linear 0.5s;
+    }
+
+
+    h5 {
+        font-size: 1rem;
+        padding: 0.1rem 0;
+        font-weight: lighter;
+        letter-spacing: 0.1rem;
+        text-align: center;
+    }
+
+    .cleaner {
+        clear: both;
+    }
+
+    /* DISCOGRAFIA */
+
+    .discography {
+        margin: 3rem auto;
+        justify-content: center; 
+    }
+
